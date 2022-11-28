@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="label_nav" parent="@android:style/TextAppearance.Small">
+        <!-- Primary brand color. -->
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/icongray</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="label_na_select" parent="@android:style/TextAppearance.Medium">
+        <!-- Primary brand color. -->
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/red_main</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>

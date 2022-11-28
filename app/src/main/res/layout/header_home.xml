@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:contextClickable="true"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:contextClickable="true">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/aladdin_reservation"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/red_main"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <SearchView
+            android:id="@+id/searchView4"
+            android:layout_width="359dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/circle_container"
+            android:searchIcon="@drawable/ic_baseline_search_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <LinearLayout
+            android:id="@+id/icon_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/searchView4">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:contextClickable="true">
+
+                <HorizontalScrollView
+                    android:id="@+id/nested"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:scrollbarThumbHorizontal="@null"
+                    android:scrollbarThumbVertical="@null"
+                    android:scrollbarTrackVertical="@null"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/icon_section"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:baselineAligned="true"
+                        android:clickable="true"
+                        android:contextClickable="true"
+                        android:orientation="horizontal">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/layout_icon"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:clickable="true"
+                            android:contextClickable="true">
+
+                            <TextView
+                                android:id="@+id/textView24"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sant"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.71"
+                                app:layout_constraintStart_toEndOf="@+id/textView23"
+                                app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+
+                            <TextView
+                                android:id="@+id/textView23"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="66dp"
+                                android:text="@string/plats_d_ici"
+                                app:layout_constraintStart_toEndOf="@+id/textView22"
+                                app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton11"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/healthyeating"
+                                app:layout_constraintStart_toEndOf="@+id/imageButton8"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton10"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/diet"
+                                app:layout_constraintStart_toEndOf="@id/imageButton9"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="68dp"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:text="@string/indien"
+                                app:layout_constraintStart_toEndOf="@+id/textView21"
+                                app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
+
+                            <TextView
+                                android:id="@+id/textView21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="65dp"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:text="@string/d_jeuner"
+                                app:layout_constraintStart_toEndOf="@+id/textView20"
+                                app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton9"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/poutine"
+                                app:layout_constraintStart_toEndOf="@+id/imageButton11"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageButton
+                                android:id="@+id/imageButton8"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/breakfast"
+                                app:layout_constraintStart_toEndOf="@+id/vegan"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="62dp"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:text="@string/vegan"
+                                app:layout_constraintStart_toEndOf="@+id/textView19"
+                                app:layout_constraintTop_toBottomOf="@+id/vegan" />
+
+                            <ImageButton
+                                android:id="@+id/vegan"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/broccoli"
+                                app:layout_constraintStart_toEndOf="@+id/japanese"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageButton
+                                android:id="@+id/japanese"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/sushi"
+                                app:layout_constraintStart_toEndOf="@+id/mexicain"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageButton
+                                android:id="@+id/italien"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/pizzaaaa"
+                                app:layout_constraintStart_toEndOf="@+id/fast_food"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="68dp"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:text="@string/mexicain"
+                                app:layout_constraintStart_toEndOf="@+id/textView16"
+                                app:layout_constraintTop_toBottomOf="@+id/mexicain" />
+
+                            <TextView
+                                android:id="@+id/textView16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="60dp"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:text="@string/italien"
+                                app:layout_constraintStart_toEndOf="@+id/textView15"
+                                app:layout_constraintTop_toBottomOf="@+id/italien" />
+
+                            <ImageButton
+                                android:id="@+id/mexicain"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/gujjia"
+                                app:layout_constraintStart_toEndOf="@+id/italien"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageButton
+                                android:id="@+id/fast_food"
+                                android:layout_width="93dp"
+                                android:layout_height="72dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_weight="1"
+                                android:backgroundTint="@android:color/transparent"
+                                android:clickable="false"
+                                android:contextClickable="false"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/hambu"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="32dp"
+                                android:text="@string/fast_food"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/fast_food" />
+
+                            <TextView
+                                android:id="@+id/textView19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="56dp"
+                                android:text="@string/japonais"
+                                app:layout_constraintStart_toEndOf="@+id/textView17"
+                                app:layout_constraintTop_toBottomOf="@+id/japanese" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.devoir4.Home"
+        android:label="home"
+        tools:layout="@layout/home" >
+        <action
+            android:id="@+id/action_nav_home_to_restaurantInfo"
+            app:destination="@id/restaurantInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.example.devoir4.Profil"
+        android:label="profil"
+        tools:layout="@layout/profil" >
+        <action
+            android:id="@+id/action_nav_profil_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.devoir4.MapsFragment"
+        android:label="map"
+        tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/nav_reservation"
+        android:name="com.example.devoir4.Reservation"
+        android:label="reservation"
+        tools:layout="@layout/reservation" >
+        <argument
+            android:name="resto_index"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_nav_reservation_to_makeReservation"
+            app:destination="@id/makeReservation" />
+        <action
+            android:id="@+id/action_nav_reservation_to_restaurantInfo"
+            app:destination="@id/restaurantInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_favoris"
+        android:name="com.example.devoir4.Favoris"
+        android:label="favoris"
+        tools:layout="@layout/favoris" >
+        <action
+            android:id="@+id/action_nav_favoris_to_restaurantInfo"
+            app:destination="@id/restaurantInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/restaurantInfo"
+        android:name="com.example.devoir4.RestaurantInfo"
+        android:label="restaurant_info"
+        tools:layout="@layout/restaurant_info" >
+        <argument
+            android:name="resto_index"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_restaurantInfo_to_makeReservation"
+            app:destination="@id/makeReservation" />
+        <argument
+            android:name="reserved"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/makeReservation"
+        android:name="com.example.devoir4.MakeReservation"
+        android:label="fragment_make_reservation"
+        tools:layout="@layout/fragment_make_reservation" >
+        <argument
+            android:name="restoName"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_makeReservation_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_makeReservation_to_nav_reservation"
+            app:destination="@id/nav_reservation" />
+        <argument
+            android:name="modified"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.devoir4.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

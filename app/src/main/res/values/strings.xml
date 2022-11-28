@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Devoir4</string>
+    <string name="title_activity_main">Main</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item">Item</string>
+    <string name="reservations">Réservations</string>
+    <string name="home">Accueil</string>
+    <string name="favoris">Favoris</string>
+    <string name="map">Map</string>
+    <string name="profil">Profil</string>
+    <string name="marc_belmont">Marc Belmont</string>
+    <string name="_123_rue_des_castros">123 rue des Castros</string>
+    <string name="budget">Budget :</string>
+    <string name="cuisines_pr_f_r_s">Cuisines préférés :</string>
+    <string name="cuisine_mexicaine">Cuisine mexicaine</string>
+    <string name="cuisine_indienne">Cuisine indienne</string>
+    <string name="cuisine_libanaise">Cuisine libanaise</string>
+    <string name="cuisine_marocaine">Cuisine marocaine</string>
+    <string name="nombre_d_enfants">Nombre d\'enfants</string>
+    <string name="nombre_d_adultes">Nombre d\'adultes</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_40_80">40$ à 80$</string>
+    <string name="_4_9_5">4.9 / 5</string>
+    <string name="piri_piri">Piri Piri</string>
+    <string name="modifier">Modifier</string>
+    <string name="_4_personnes">4 personnes</string>
+    <string name="_4_km">4 km</string>
+    <string name="courrante">Courrante</string>
+    <string name="pr_c_dentes">Précédentes</string>
+    <string name="el_barcelona">El Barcelona</string>
+    <string name="_3_2_5">3.2 / 5</string>
+    <string name="_9_30_pm">9 : 30 pm</string>
+    <string name="_4_8_5">4.8 / 5</string>
+    <string name="annuler">Annuler</string>
+    <string name="restaurant_italiano">Restaurant italiano</string>
+    <string name="_1_10_2021">1/10/2021</string>
+    <string name="_8_9_2020">8/9/2020</string>
+    <string name="_10_7_2020">10/7/2020</string>
+    <string name="cora">Cora</string>
+    <string name="_11_11_2019">11/11/2019</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="menu">Menu</string>
+    <string name="sauter_au_boeuf">Sauter au boeuf</string>
+    <string name="hamburger">Hamburger</string>
+    <string name="soupe">Soupe</string>
+    <string name="vin">Vin</string>
+    <string name="pain_l_ail">Pain à l\'ail</string>
+    <string name="coke">Coke</string>
+    <string name="boisson">Boisson</string>
+    <string name="_438_560_3245">438-560-3245</string>
+    <string name="sandwich">Sandwich</string>
+    <string name="salade_c_sar">Salade césar</string>
+    <string name="bi_re">Bière</string>
+    <string name="jus">Jus</string>
+    <string name="commande_est_annuler">Réservation annulée avec succès</string>
+    <string name="commande_est_confirm">Réservation enregistrée!</string>
+    <string name="champagne">Champagne</string>
+    <string name="desserts">Desserts</string>
+    <string name="gateau">Gateau</string>
+    <string name="salade_de_fruit">Salade de fruit</string>
+    <string name="pudding">Pudding</string>
+    <string name="todo">TODO</string>
+    <string name="r_server">RÉSERVER</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="modifier_valuation">Modifier revue</string>
+    <string-array name="names">
+        <item>Poulet plus</item>
+        <item>Banquise</item>
+        <item>Pasta and co.</item>
+        <item>Deccan</item>
+        <item>Restaurant Italiano</item>
+        <item>Tossin</item>
+        <item>Gourmet</item>
+        <item>Onesta</item>
+        <item>Chiyang</item>
+        <item>Tasty</item>
+        <item>Delites</item>
+        <item>Bolgatty</item>
+        <item>Konkan</item>
+        <item>Chicago</item>
+        <item>Blossom</item>
+        <item>Malabar</item>
+        <item>Fantasea</item>
+        <item>Wharf</item>
+    </string-array>
+
+    <string-array name="cuisine">
+        <item>Américain</item>
+        <item>Américain</item>
+        <item>Italien</item>
+        <item>Indien</item>
+        <item>Italien</item>
+        <item>Italien</item>
+        <item>Américain</item>
+        <item>Mexicain</item>
+        <item>Asiatique</item>
+        <item>Mexicain</item>
+        <item>Asiatique</item>
+        <item>Mexicain</item>
+        <item>Grèque</item>
+        <item>Asiatique</item>
+        <item>Asiatique</item>
+        <item>Indien</item>
+        <item>Indien</item>
+        <item>Américain</item>
+    </string-array>
+
+    <string-array name="adress">
+        <item>32 Chemin St-Catherine</item>
+        <item>53 Dupont Street</item>
+        <item>1 Saint-Laurent Boul</item>
+        <item>23 Guy Street</item>
+        <item>145 Restaurant Italiano</item>
+        <item>214 University Street</item>
+        <item>6431 Peel Street</item>
+        <item>753 Pie-IX Boulevard</item>
+        <item>95 Wolfe Street</item>
+        <item>43215 Saint-Laurent Boulevard</item>
+        <item>2341 Sherbrooke</item>
+        <item>23 Saint-Laurent Boulevard</item>
+        <item>423 University Street</item>
+        <item>654 Berry</item>
+        <item>765 University Street</item>
+        <item>967 Saint-Denis</item>
+        <item>24 Saint-Denis</item>
+        <item>1455 Sherbrooke</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>4.5</item>
+        <item>3.5</item>
+        <item>2.5</item>
+        <item>5</item>
+        <item>4.8</item>
+        <item>4.2</item>
+        <item>4.5</item>
+        <item>3.5</item>
+        <item>2.5</item>
+        <item>5</item>
+        <item>4.8</item>
+        <item>4.2</item>
+        <item>4.5</item>
+        <item>3.5</item>
+        <item>2.5</item>
+        <item>5</item>
+        <item>4.8</item>
+        <item>4.2</item>
+    </string-array>
+    <string-array name="amount_rating">
+        <item>(2,285)</item>
+        <item>(300)</item>
+        <item>(2,285)</item>
+        <item>(300)</item>
+        <item>(2,285)</item>
+        <item>(300)</item>
+        <item>(2,285)</item>
+        <item>(300)</item>
+        <item>(2,285)</item>
+        <item>(300)</item>
+        <item>(2,285)</item>
+        <item>(300)</item>
+        <item>(2,285)</item>
+        <item>(300)</item>
+        <item>(2,285)</item>
+        <item>(300)</item>
+        <item>(2,285)</item>
+        <item>(300)</item>
+    </string-array>
+
+    <string-array name="boisson">
+        <item>Coke</item>
+        <item>Vin</item>
+        <item>Bière</item>
+        <item>Jus</item>
+        <item>Thé glacé</item>
+        <item>Orange Fanta</item>
+        <item>Champagne</item>
+        <item>Eau pétillante</item>
+    </string-array>
+
+    <string-array name="menu_content">
+        <item>Soupe</item>
+        <item>Pizza</item>
+        <item>Pain à l\'ail</item>
+        <item>Sauté de boeuf</item>
+        <item>Riz fris</item>
+        <item>Pâtes</item>
+        <item>Salade</item>
+        <item>Ailes de Poulet</item>
+        <item>Hamburger</item>
+        <item>Frites</item>
+        <item>Choix du chef</item>
+        <item>Assiette classique</item>
+    </string-array>
+    <string-array name="section_home">
+        <item>Restaurants à proximité</item>
+        <item>Bon prix</item>
+        <item>Vos favoris</item>
+        <item>Le plus populaire</item>
+        <item>Le mieux coté</item>
+    </string-array>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="missing_info1">Champ obligatoire non rempli : Date</string>
+    <string name="missing_info2">Champ obligatoire non rempli : Nombre d\'adultes</string>
+    <string name="missing_info3">Champ obligatoire non rempli : Nombre d\'enfants</string>
+    <string name="missing_info4">Champ obligatoire non rempli : Heure</string>
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="justification_de_l_annulation">Justification de l\'annulation</string>
+    <string name="heure">Heure :</string>
+    <string name="date">Date :</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="notes_sp_ciales">Notes Spéciales</string>
+    <string name="tous_les_restaurants">Tous les restaurants</string>
+    <string name="vous_avez_aim_ce_restaurant">Vous avez aimé ce restaurant?</string>
+    <string name="mes_r_servations">Mes réservations</string>
+    <string name="courantes">Courantes</string>
+    <string name="text">text</string>
+
+    <string name="modifier1">(Modifier ma revue)</string>
+    <string name="commentaires">Commentaires :</string>
+    <string name="aladdin_reservation">Aladin Réservation</string>
+    <string name="pour_le">Pour le</string>
+    <string name="ok">OK</string>
+    <string name="sant">Santé</string>
+    <string name="plats_d_ici">Plats d\'ici</string>
+    <string name="indien">Indien</string>
+    <string name="d_jeuner">Déjeuner</string>
+    <string name="vegan">Vegan</string>
+    <string name="mexicain">Mexicain</string>
+    <string name="italien">Italien</string>
+    <string name="japonais">Japonais</string>
+    <string name="fast_food">Fast Food</string>
+</resources>

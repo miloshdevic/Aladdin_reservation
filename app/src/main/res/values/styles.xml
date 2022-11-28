@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionButton" parent="@android:style/Widget.ActionButton" >
+        <item name="android:drawablePadding">@dimen/action_button_padding</item>
+        <item name="android:statusBarColor">@color/white</item>
+
+    </style>
+</resources>

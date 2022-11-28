@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/icon_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nav_favoris"
+        android:icon="@drawable/icon_fav"
+        android:title="@string/favoris" />
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/icon_map"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/nav_reservation"
+        android:icon="@drawable/icon_reservation"
+        android:title="@string/reservations" />
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/icon_profil"
+        android:title="@string/profil" />
+</menu>
